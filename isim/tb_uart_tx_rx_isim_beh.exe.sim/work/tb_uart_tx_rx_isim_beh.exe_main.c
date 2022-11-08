@@ -27,11 +27,11 @@ int main(int argc, char **argv)
     xsi_register_min_prec_unit(-12);
     ieee_p_2592010699_init();
     ieee_p_1242562249_init();
-    work_a_2826220746_3212880686_init();
-    work_a_3429428376_2372691052_init();
+    work_a_2942421758_3212880686_init();
+    work_a_3293768542_2372691052_init();
 
 
-    xsi_register_tops("work_a_3429428376_2372691052");
+    xsi_register_tops("work_a_3293768542_2372691052");
 
     IEEE_P_1242562249 = xsi_get_engine_memory("ieee_p_1242562249");
     IEEE_P_2592010699 = xsi_get_engine_memory("ieee_p_2592010699");
